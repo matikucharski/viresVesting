@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.8.1"
   },
-  "totalMinifiedBytes": 1237286,
-  "totalMinifiedGzipBytes": 359383,
+  "totalMinifiedBytes": 1529260,
+  "totalMinifiedGzipBytes": 434658,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 9822,
     "packages/meteor-base.js": 31,
@@ -12,16 +12,16 @@
     "packages/blaze-html-templates.js": 40,
     "packages/modules-runtime.js": 5294,
     "packages/modules.js": [
-      832297,
+      1124271,
       {
         "node_modules": {
           "meteor": {
             "modules": {
               "client.js": 126,
-              "legacy.js": 59,
+              "legacy.js": 42,
               "css.js": 263,
-              "install-packages.js": 1792,
-              "process.js": 415,
+              "install-packages.js": 1780,
+              "process.js": 349,
               "reify.js": 83,
               "stubs.js": 99,
               "node_modules": {
@@ -38,7 +38,7 @@
                 },
                 "meteor-babel-helpers": {
                   "package.json": 90,
-                  "index.js": 404
+                  "index.js": 387
                 }
               }
             }
@@ -46,30 +46,33 @@
           "@babel": {
             "runtime": {
               "regenerator": {
-                "index.js": 53
+                "index.js": 210
               },
               "helpers": {
-                "slicedToArray.js": 154,
-                "arrayWithHoles.js": 73,
-                "iterableToArrayLimit.js": 360,
-                "nonIterableRest.js": 119,
-                "typeof.js": 285,
-                "toConsumableArray.js": 150,
-                "arrayWithoutHoles.js": 134,
-                "iterableToArray.js": 155,
-                "nonIterableSpread.js": 114,
-                "inheritsLoose.js": 125,
-                "objectWithoutProperties.js": 313,
-                "objectWithoutPropertiesLoose.js": 164,
-                "objectSpread2.js": 633,
-                "defineProperty.js": 150,
-                "assertThisInitialized.js": 153
+                "regeneratorRuntime.js": 6937,
+                "typeof.js": 374,
+                "slicedToArray.js": 262,
+                "arrayWithHoles.js": 125,
+                "iterableToArrayLimit.js": 478,
+                "unsupportedIterableToArray.js": 401,
+                "arrayLikeToArray.js": 188,
+                "nonIterableRest.js": 256,
+                "toConsumableArray.js": 256,
+                "arrayWithoutHoles.js": 161,
+                "iterableToArray.js": 196,
+                "nonIterableSpread.js": 251,
+                "inheritsLoose.js": 201,
+                "setPrototypeOf.js": 267,
+                "createForOfIteratorHelperLoose.js": 558,
+                "objectWithoutProperties.js": 368,
+                "objectWithoutPropertiesLoose.js": 216,
+                "objectSpread2.js": 688,
+                "defineProperty.js": 237,
+                "toPropertyKey.js": 205,
+                "toPrimitive.js": 373,
+                "assertThisInitialized.js": 205
               }
             }
-          },
-          "regenerator-runtime": {
-            "package.json": 92,
-            "runtime.js": 6288
           },
           "@waves": {
             "signer": {
@@ -192,7 +195,7 @@
                     "index.js": 424
                   },
                   "console": {
-                    "index.js": 874
+                    "index.js": 869
                   },
                   "UniqPrimitiveCollection.js": 429
                 },
@@ -211,7 +214,7 @@
           },
           "tslib": {
             "package.json": 97,
-            "tslib.js": 7903
+            "tslib.js": 7893
           },
           "node-fetch": {
             "package.json": 130,
@@ -284,7 +287,7 @@
               "forge.js": 61,
               "aes.js": 3837,
               "cipher.js": 1943,
-              "util.js": 25218,
+              "util.js": 25213,
               "baseN.js": 1463,
               "cipherModes.js": 12394,
               "sha256.js": 3102,
@@ -317,24 +320,23 @@
             "deps": {
               "crypto.js": 41,
               "stream.js": 37,
-              "vm.js": 33,
               "process.js": 38
             },
             "wrappers": {
-              "crypto.js": 99
+              "crypto.js": 89
             },
             "node_modules": {
               "buffer": {
                 "package.json": 76,
-                "index.js": 20559
+                "index.js": 21255
               },
               "base64-js": {
                 "package.json": 79,
-                "index.js": 1434
+                "index.js": 1436
               },
               "ieee754": {
-                "package.json": 78,
-                "index.js": 883
+                "package.json": 77,
+                "index.js": 974
               },
               "crypto-browserify": {
                 "package.json": 92,
@@ -342,11 +344,11 @@
               },
               "randombytes": {
                 "package.json": 102,
-                "browser.js": 575
+                "browser.js": 565
               },
               "safe-buffer": {
                 "package.json": 81,
-                "index.js": 739
+                "index.js": 864
               },
               "create-hash": {
                 "package.json": 102,
@@ -355,7 +357,7 @@
               },
               "inherits": {
                 "package.json": 115,
-                "inherits_browser.js": 319
+                "inherits_browser.js": 331
               },
               "md5.js": {
                 "package.json": 76,
@@ -363,87 +365,112 @@
               },
               "hash-base": {
                 "package.json": 79,
-                "index.js": 1434
+                "index.js": 1443
               },
-              "stream-browserify": {
-                "package.json": 87,
-                "index.js": 1116,
-                "node_modules": {
-                  "readable-stream": {
-                    "package.json": 300,
-                    "readable.js": 113,
-                    "writable.js": 113,
-                    "duplex.js": 111,
-                    "lib": {
-                      "internal": {
-                        "streams": {
-                          "stream.js": 132,
-                          "stream-browser.js": 53,
-                          "BufferList.js": 1270,
-                          "destroy.js": 960
-                        }
-                      },
-                      "_stream_readable.js": 10725,
-                      "_stream_duplex.js": 1273,
-                      "_stream_writable.js": 7264,
-                      "_stream_transform.js": 2024,
-                      "_stream_passthrough.js": 254
-                    },
-                    "readable-browser.js": 257,
-                    "node_modules": {
-                      "inherits": {
-                        "package.json": 115,
-                        "inherits_browser.js": 319
-                      }
-                    },
-                    "writable-browser.js": 59,
-                    "duplex-browser.js": 57,
-                    "transform.js": 54,
-                    "passthrough.js": 56
-                  },
-                  "string_decoder": {
-                    "package.json": 97,
-                    "lib": {
-                      "string_decoder.js": 3589
+              "readable-stream": {
+                "package.json": 349,
+                "errors.js": 80,
+                "readable.js": 82,
+                "lib": {
+                  "internal": {
+                    "streams": {
+                      "from.js": 99,
+                      "stream.js": 101,
+                      "stream-browser.js": 53,
+                      "buffer_list.js": 3076,
+                      "destroy.js": 1486,
+                      "state.js": 370,
+                      "async_iterator.js": 1944,
+                      "end-of-stream.js": 1454,
+                      "from-browser.js": 105,
+                      "pipeline.js": 1044
                     }
-                  }
-                }
+                  },
+                  "_stream_readable.js": 12078,
+                  "_stream_duplex.js": 1388,
+                  "_stream_writable.js": 7563,
+                  "_stream_transform.js": 1957,
+                  "_stream_passthrough.js": 212
+                },
+                "readable-browser.js": 364,
+                "errors-browser.js": 2132
               },
               "events": {
                 "package.json": 79,
-                "events.js": 5774
-              },
-              "process-nextick-args": {
-                "package.json": 90,
-                "index.js": 701
-              },
-              "isarray": {
-                "package.json": 77,
-                "index.js": 108
-              },
-              "core-util-is": {
-                "package.json": 85,
-                "lib": {
-                  "util.js": 992
-                }
+                "events.js": 6085
               },
               "util": {
                 "package.json": 141,
                 "support": {
                   "isBuffer.js": 78,
+                  "types.js": 3958,
                   "isBufferBrowser.js": 158
                 },
-                "util.js": 7779,
-                "node_modules": {
-                  "inherits": {
-                    "package.json": 115,
-                    "inherits_browser.js": 319
-                  }
+                "util.js": 8009
+              },
+              "is-arguments": {
+                "package.json": 82,
+                "index.js": 497
+              },
+              "call-bind": {
+                "callBound.js": 200,
+                "package.json": 79,
+                "index.js": 580
+              },
+              "get-intrinsic": {
+                "package.json": 83,
+                "index.js": 7706
+              },
+              "has-symbols": {
+                "package.json": 81,
+                "index.js": 235,
+                "shams.js": 878
+              },
+              "function-bind": {
+                "package.json": 80,
+                "index.js": 96,
+                "implementation.js": 719
+              },
+              "has": {
+                "package.json": 70,
+                "src": {
+                  "index.js": 120
                 }
+              },
+              "is-generator-function": {
+                "package.json": 91,
+                "index.js": 521
+              },
+              "which-typed-array": {
+                "package.json": 87,
+                "index.js": 835
+              },
+              "foreach": {
+                "package.json": 77,
+                "index.js": 315
+              },
+              "available-typed-arrays": {
+                "package.json": 92,
+                "index.js": 313
+              },
+              "es-abstract": {
+                "helpers": {
+                  "getOwnPropertyDescriptor.js": 147
+                }
+              },
+              "is-typed-array": {
+                "package.json": 84,
+                "index.js": 939
               },
               "util-deprecate": {
                 "package.json": 104,
-                "browser.js": 397
+                "browser.js": 387
+              },
+              "string_decoder": {
+                "package.json": 97,
+                "lib": {
+                  "string_decoder.js": 3589
+                }
               },
               "ripemd160": {
                 "package.json": 78,
@@ -464,11 +491,9 @@
                 "package.json": 81,
                 "index.js": 1404
               },
-              "string_decoder": {
-                "package.json": 97,
-                "lib": {
-                  "string_decoder.js": 3589
-                }
+              "stream-browserify": {
+                "package.json": 87,
+                "index.js": 1311
               },
               "create-hmac": {
                 "package.json": 104,
@@ -479,22 +504,23 @@
                 "algos.js": 59,
                 "browser": {
                   "algorithms.json": 1938,
-                  "index.js": 1342,
-                  "sign.js": 2319,
+                  "index.js": 1361,
+                  "sign.js": 2252,
                   "curves.json": 181,
-                  "verify.js": 1409
+                  "verify.js": 1422
                 },
                 "package.json": 112
               },
               "pbkdf2": {
-                "package.json": 155,
+                "package.json": 154,
                 "index.js": 64,
                 "lib": {
                   "sync.js": 73,
-                  "async.js": 1407,
-                  "precondition.js": 449,
-                  "default-encoding.js": 138,
-                  "sync-browser.js": 1297
+                  "async.js": 1485,
+                  "precondition.js": 305,
+                  "default-encoding.js": 211,
+                  "sync-browser.js": 1284,
+                  "to-buffer.js": 273
                 },
                 "browser.js": 71
               },
@@ -514,9 +540,9 @@
                   "des": {
                     "utils.js": 3337,
                     "cipher.js": 1950,
-                    "des.js": 1637,
+                    "des.js": 1633,
                     "cbc.js": 850,
-                    "ede.js": 819
+                    "ede.js": 815
                   }
                 }
               },
@@ -561,18 +587,28 @@
                   "generatePrime.js": 1016,
                   "primes.json": 6963,
                   "dh.js": 2058
-                }
-              },
-              "bn.js": {
-                "package.json": 97,
-                "lib": {
-                  "bn.js": 43415
+                },
+                "node_modules": {
+                  "bn.js": {
+                    "package.json": 97,
+                    "lib": {
+                      "bn.js": 43572
+                    }
+                  }
                 }
               },
               "miller-rabin": {
                 "package.json": 83,
                 "lib": {
                   "mr.js": 1281
+                },
+                "node_modules": {
+                  "bn.js": {
+                    "package.json": 97,
+                    "lib": {
+                      "bn.js": 43572
+                    }
+                  }
                 }
               },
               "brorand": {
@@ -581,34 +617,48 @@
               },
               "browserify-rsa": {
                 "package.json": 84,
-                "index.js": 763
+                "index.js": 721
+              },
+              "bn.js": {
+                "package.json": 96,
+                "lib": {
+                  "bn.js": 44579
+                }
               },
               "elliptic": {
-                "package.json": 1274,
+                "package.json": 1122,
                 "lib": {
                   "elliptic.js": 242,
                   "elliptic": {
-                    "utils.js": 1123,
+                    "utils.js": 1074,
                     "curve": {
                       "index.js": 121,
-                      "base.js": 4652,
-                      "short.js": 12696,
-                      "mont.js": 2657,
-                      "edwards.js": 6237
+                      "base.js": 4725,
+                      "short.js": 12702,
+                      "mont.js": 2632,
+                      "edwards.js": 6205
                     },
-                    "curves.js": 5109,
+                    "curves.js": 5094,
                     "precomputed": {
                       "secp256k1.js": 26155
                     },
                     "ec": {
-                      "index.js": 3193,
-                      "key.js": 1689,
-                      "signature.js": 1503
+                      "index.js": 3205,
+                      "key.js": 1734,
+                      "signature.js": 1632
                     },
                     "eddsa": {
-                      "index.js": 1821,
-                      "key.js": 1382,
-                      "signature.js": 923
+                      "index.js": 1811,
+                      "key.js": 1368,
+                      "signature.js": 909
+                    }
+                  }
+                },
+                "node_modules": {
+                  "bn.js": {
+                    "package.json": 97,
+                    "lib": {
+                      "bn.js": 43572
                     }
                   }
                 }
@@ -638,12 +688,6 @@
                     "ripemd.js": 1973,
                     "hmac.js": 762
                   }
-                },
-                "node_modules": {
-                  "inherits": {
-                    "package.json": 115,
-                    "inherits_browser.js": 319
-                  }
                 }
               },
               "hmac-drbg": {
@@ -654,48 +698,64 @@
               },
               "parse-asn1": {
                 "package.json": 80,
-                "index.js": 2258,
+                "index.js": 2180,
                 "asn1.js": 2284,
                 "certificate.js": 1652,
                 "aesid.json": 506,
-                "fixProc.js": 729
+                "fixProc.js": 724
               },
               "asn1.js": {
-                "package.json": 81,
+                "package.json": 80,
                 "lib": {
-                  "asn1.js": 198,
+                  "asn1.js": 213,
                   "asn1": {
-                    "api.js": 911,
+                    "api.js": 847,
+                    "encoders": {
+                      "index.js": 73,
+                      "der.js": 4497,
+                      "pem.js": 379
+                    },
                     "base": {
-                      "index.js": 167,
-                      "reporter.js": 1574,
-                      "buffer.js": 1840,
-                      "node.js": 9059
+                      "node.js": 9219,
+                      "reporter.js": 1609,
+                      "buffer.js": 2464,
+                      "index.js": 182
                     },
                     "constants": {
-                      "index.js": 159,
-                      "der.js": 523
+                      "der.js": 604,
+                      "index.js": 178
                     },
                     "decoders": {
-                      "index.js": 58,
-                      "der.js": 3970,
-                      "pem.js": 613
-                    },
-                    "encoders": {
-                      "index.js": 58,
-                      "der.js": 4406,
-                      "pem.js": 348
+                      "index.js": 73,
+                      "der.js": 4074,
+                      "pem.js": 649
+                    }
+                  }
+                },
+                "node_modules": {
+                  "bn.js": {
+                    "package.json": 97,
+                    "lib": {
+                      "bn.js": 43572
                     }
                   }
                 }
               },
-              "vm-browserify": {
-                "package.json": 83,
-                "index.js": 2334
+              "safer-buffer": {
+                "package.json": 82,
+                "safer.js": 1214
               },
               "create-ecdh": {
                 "package.json": 102,
-                "browser.js": 1676
+                "browser.js": 1676,
+                "node_modules": {
+                  "bn.js": {
+                    "package.json": 97,
+                    "lib": {
+                      "bn.js": 43572
+                    }
+                  }
+                }
               },
               "public-encrypt": {
                 "package.json": 105,
@@ -703,25 +763,33 @@
                 "publicEncrypt.js": 1080,
                 "mgf.js": 282,
                 "xor.js": 96,
+                "node_modules": {
+                  "bn.js": {
+                    "package.json": 97,
+                    "lib": {
+                      "bn.js": 43572
+                    }
+                  }
+                },
                 "withPublic.js": 183,
                 "privateDecrypt.js": 1290
               },
               "randomfill": {
                 "package.json": 101,
-                "browser.js": 1667
+                "browser.js": 1647
               },
               "process": {
                 "browser.js": 1688
               }
             },
             "package.json": 87,
-            "index.js": 392,
+            "index.js": 384,
             "map.json": 1008
           },
           "js-sha3": {
             "package.json": 80,
             "src": {
-              "sha3.js": 9896
+              "sha3.js": 9891
             }
           },
           "@waves.exchange": {
