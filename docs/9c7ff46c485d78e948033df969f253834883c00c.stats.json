@@ -1,0 +1,9 @@
+{
+  "minifier": {
+    "name": "standard-mati-minifier-js",
+    "version": "2.8.0"
+  },
+  "totalMinifiedBytes": 4767395,
+  "totalMinifiedGzipBytes": 991993,
+  "minifiedBytesByPackage": {}
+}
