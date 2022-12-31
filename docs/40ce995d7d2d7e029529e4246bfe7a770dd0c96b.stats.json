@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.8.1"
   },
-  "totalMinifiedBytes": 1530716,
-  "totalMinifiedGzipBytes": 434918,
+  "totalMinifiedBytes": 2098732,
+  "totalMinifiedGzipBytes": 578877,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 9822,
     "packages/meteor-base.js": 31,
@@ -12,16 +12,16 @@
     "packages/blaze-html-templates.js": 40,
     "packages/modules-runtime.js": 5294,
     "packages/modules.js": [
-      1124271,
+      1690014,
       {
         "node_modules": {
           "meteor": {
             "modules": {
               "client.js": 126,
-              "legacy.js": 42,
+              "legacy.js": 59,
               "css.js": 263,
-              "install-packages.js": 1780,
-              "process.js": 349,
+              "install-packages.js": 1792,
+              "process.js": 415,
               "reify.js": 83,
               "stubs.js": 99,
               "node_modules": {
@@ -38,25 +38,22 @@
                 },
                 "meteor-babel-helpers": {
                   "package.json": 90,
-                  "index.js": 387
+                  "index.js": 404
                 }
               }
             }
           },
           "@babel": {
             "runtime": {
-              "regenerator": {
-                "index.js": 210
-              },
               "helpers": {
-                "regeneratorRuntime.js": 6937,
-                "typeof.js": 374,
                 "slicedToArray.js": 262,
                 "arrayWithHoles.js": 125,
                 "iterableToArrayLimit.js": 478,
                 "unsupportedIterableToArray.js": 401,
                 "arrayLikeToArray.js": 188,
                 "nonIterableRest.js": 256,
+                "regeneratorRuntime.js": 6937,
+                "typeof.js": 374,
                 "toConsumableArray.js": 256,
                 "arrayWithoutHoles.js": 161,
                 "iterableToArray.js": 196,
@@ -71,6 +68,9 @@
                 "toPropertyKey.js": 205,
                 "toPrimitive.js": 373,
                 "assertThisInitialized.js": 205
+              },
+              "regenerator": {
+                "index.js": 210
               }
             }
           },
@@ -182,39 +182,16 @@
                 "chain-id.js": 361
               }
             },
-            "waves-browser-bus": {
-              "package.json": 99,
+            "provider-seed": {
+              "package.json": 103,
               "dist": {
-                "index.js": 286,
-                "bus": {
-                  "Bus.js": 4473
-                },
-                "utils": {
-                  "index.js": 208,
-                  "utils": {
-                    "index.js": 424
-                  },
-                  "console": {
-                    "index.js": 869
-                  },
-                  "UniqPrimitiveCollection.js": 429
-                },
-                "config": {
-                  "index.js": 444
-                },
-                "adapters": {
-                  "Adapter.js": 133,
-                  "WindowAdapter.js": 3865
-                },
-                "protocols": {
-                  "WindowProtocol.js": 1142
-                }
+                "provider-seed.js": 587145
               }
             }
           },
           "tslib": {
             "package.json": 97,
-            "tslib.js": 7893
+            "tslib.js": 7903
           },
           "node-fetch": {
             "package.json": 130,
@@ -287,7 +264,7 @@
               "forge.js": 61,
               "aes.js": 3837,
               "cipher.js": 1943,
-              "util.js": 25213,
+              "util.js": 25218,
               "baseN.js": 1463,
               "cipherModes.js": 12394,
               "sha256.js": 3102,
@@ -323,7 +300,7 @@
               "process.js": 38
             },
             "wrappers": {
-              "crypto.js": 89
+              "crypto.js": 99
             },
             "node_modules": {
               "buffer": {
@@ -344,7 +321,7 @@
               },
               "randombytes": {
                 "package.json": 102,
-                "browser.js": 565
+                "browser.js": 575
               },
               "safe-buffer": {
                 "package.json": 81,
@@ -386,9 +363,9 @@
                       "pipeline.js": 1044
                     }
                   },
-                  "_stream_readable.js": 12078,
+                  "_stream_readable.js": 12083,
                   "_stream_duplex.js": 1388,
-                  "_stream_writable.js": 7563,
+                  "_stream_writable.js": 7568,
                   "_stream_transform.js": 1957,
                   "_stream_passthrough.js": 212
                 },
@@ -443,7 +420,7 @@
               },
               "which-typed-array": {
                 "package.json": 87,
-                "index.js": 835
+                "index.js": 845
               },
               "foreach": {
                 "package.json": 77,
@@ -451,7 +428,7 @@
               },
               "available-typed-arrays": {
                 "package.json": 92,
-                "index.js": 313
+                "index.js": 318
               },
               "es-abstract": {
                 "helpers": {
@@ -460,11 +437,11 @@
               },
               "is-typed-array": {
                 "package.json": 84,
-                "index.js": 939
+                "index.js": 944
               },
               "util-deprecate": {
                 "package.json": 104,
-                "browser.js": 387
+                "browser.js": 397
               },
               "string_decoder": {
                 "package.json": 97,
@@ -516,9 +493,9 @@
                 "index.js": 64,
                 "lib": {
                   "sync.js": 73,
-                  "async.js": 1485,
+                  "async.js": 1550,
                   "precondition.js": 305,
-                  "default-encoding.js": 211,
+                  "default-encoding.js": 231,
                   "sync-browser.js": 1284,
                   "to-buffer.js": 273
                 },
@@ -776,34 +753,20 @@
               },
               "randomfill": {
                 "package.json": 101,
-                "browser.js": 1647
+                "browser.js": 1667
               },
               "process": {
                 "browser.js": 1688
               }
             },
             "package.json": 87,
-            "index.js": 384,
+            "index.js": 418,
             "map.json": 1008
           },
           "js-sha3": {
             "package.json": 80,
             "src": {
-              "sha3.js": 9891
-            }
-          },
-          "@waves.exchange": {
-            "provider-cloud": {
-              "package.json": 191,
-              "dist": {
-                "provider-cloud.es.js": 6952
-              }
-            }
-          },
-          "typed-ts-events": {
-            "package.json": 95,
-            "dist": {
-              "events.min.js": 2019
+              "sha3.js": 9896
             }
           },
           "jquery": {
@@ -1629,13 +1592,13 @@
       {}
     ],
     "app/app.js": [
-      7222,
+      9495,
       {
         "imports": {
           "ui": {
             "body.html": 58,
-            "template.body.js": 2736,
-            "body.js": 4178
+            "template.body.js": 3284,
+            "body.js": 5903
           }
         },
         "client": {
